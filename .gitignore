@@ -1,0 +1,36 @@
+# Ignore project-generated files
+Intermediate/
+Saved/
+DerivedDataCache/
+Binaries/
+Build/*/Binaries/
+Build/*/Intermediate/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Ignore Visual Studio local db
+.vs/
+*.VC.db
+*.VC.opendb
+*.ipch
+
+# Ignore config backups
+*.local
+
+# Ignore autosaves
+Saved/Autosaves/
+Saved/Backup/
+
+# Ignore compiled shaders
+*.ushaderprecache
+*.ushadershitcache
+
+# Ignore log files
+Saved/Logs/
+
+# Ignore common temp files
+Thumbs.db
